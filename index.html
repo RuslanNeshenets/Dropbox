@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Dropbox</title>
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Шрифты -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<!-- Иконки -->
+	<link rel="stylesheet" href="css/iconsfont.css">
+</head>
+<body>
+<!-- Sprite -->
+<svg style="display: none;">
+	<symbol id="search" viewBox="0 0 56.966 56.966">
+		<path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23
+		s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92
+		c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17
+		s-17-7.626-17-17S14.61,6,23.984,6z"/>
+	</symbol>
+	<symbol id="triangle" viewBox="0 0 552.611 552.611">
+		<path d="M486.413,221.412L122.347,12.916c-52.938-30.318-95.852-5.44-95.852,55.563v415.652c0,61.004,42.914,85.882,95.852,55.563
+		l364.066-208.49C539.351,300.887,539.351,251.731,486.413,221.412z"/>
+	</symbol>
+	<symbol id="play" viewBox="0 0 357 357">
+		<polygon points="38.25,0 38.25,357 318.75,178.5"/>
+	</symbol>
+</svg>
+<!-- Шапка -->
+<header class="header">
+	<div class="header__top">
+		<div class="container">
+			<div class="inner">
+				<div>
+					<select>
+						<option>English</option>
+						<option>Русский</option>
+					</select>
+				</div>
+				<div>
+					<a style="margin-right: 30px;"class="fa fa-users" href="#">Contact Center</a>
+					<select>
+						<option value disabled selected>Country Profile</option>
+						<option>Вариант 1</option>
+						<option>Вариант 2</option>
+					</select>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header__bottom">
+		<div class="container">
+			<div class="inner">	
+				<div class="bottom__logo">
+					<img src="img/logo.jpg">
+				</div>
+				<nav class="nav">
+					<a class="nav__link" href="#">Express</a>
+					<a class="nav__link" href="#">Parcel & Ecommerce</a>
+					<a class="nav__link" href="#">Logistics</a>
+					<a class="nav__link" href="#">Mail</a>
+					<a class="nav__link" href="#">Press</a>
+					<a class="nav__link" href="#">About</a>
+				</nav>
+				<a href="#" class="bottom__search">
+					<svg class="bottom__icon">
+						<use xlink:href="#search"></use>
+					</svg>
+				</a>
+			</div>
+		</div>
+	</div>
+</header>
+<!-- Intro -->
+<div class="intro">
+	<div class="container">
+		<div class="intro__inner">
+			<h1 class="intro__title">We Deliver<br>
+			With Speed</h1>
+			<svg class="intro__line"><rect x="0" y="0" width="100" height="5" fill="#ffcc00"/></svg>
+			<div class="intro__text">
+				When an unknown printer took a galley of type and scrambled<br>it to make a type specimen book. It has survived not only five centuries
+			</div>
+			<div class="intro__quality">
+				<p class="intro__quality__text">Amazing</p>
+				<p class="intro__quality__text">Quick</p>
+				<p class="intro__quality__text">24/7 Supports</p>
+			</div>
+			<div class="intro__buttons">
+				<a href="#" class="button__1">Learn more</a>
+				<a href="#" class="button__2">Dhl worldwide</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Services -->
+<div class="services">
+	<div class="container">
+		<h2 class="services__title">Awesome Services</h2>
+	</div>
+	<div class="container">
+		<div class="services__inner">
+			<div class="services__item">
+				<img class="services__photo" src="img/services/photo-1.jpg">
+				<div class="services__services">Express Services</div>
+				<div class="services__text">When an unknown printer took a galley of type and scrambled it to make a type specimen.</div>
+				<div class="services__read_more">
+					<a href="#">Read More</a>
+					<svg class="triangle__icon">
+						<use xlink:href="#triangle"></use>
+					</svg>
+				</div>
+			</div>
+			<div class="services__item">
+				<img class="services__photo" src="img/services/photo-2.jpg">
+				<div class="services__services">parcel & ecommerce</div>
+				<div class="services__text">When an unknown printer took a galley of type and scrambled it to make a type specimen.</div>
+				<div class="services__read_more">
+					<a href="#">Read More</a>
+					<svg class="triangle__icon">
+						<use xlink:href="#triangle"></use>
+					</svg>
+				</div>
+			</div>
+			<div class="services__item">
+				<img class="services__photo" src="img/services/photo-3.jpg">
+				<div class="services__services">frieght transport</div>
+				<div class="services__text">When an unknown printer took a galley of type and scrambled it to make a type specimen.</div>
+				<div class="services__read_more">
+					<a href="#">Read More</a>
+					<svg class="triangle__icon">
+						<use xlink:href="#triangle"></use>
+					</svg>
+				</div>
+			</div>
+			<div class="services__dhi">
+				<div class="dhi__title">DHl Worldwide</div>
+				<svg class="dhi__line"><rect x="0" y="0" width="100" height="2" fill="#ffcc00"/></svg>
+				<div class="dhi__text">When an unknown prot printer type and scra</div>
+				<div class="select__bg">
+					<div class="select__bg-red"></div>
+					<div class="select__bg-yellow"></div>
+				</div>
+				<select>
+					<option value disabled selected>Location</option>
+					<option style = 'background-color:#9d0000;'>Вариант 1</option>
+					<option>Вариант 2</option>
+				</select>
+				<a href="#" class="button__1">Explore</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Provider -->
+<div class="provider">
+	<div class="container">
+		<div class="provider__inner">
+			<div class="provider__text">One of the best international service provider</div>
+			<div class="provider__button">
+			<a href="#" class="provider__button-bg">
+					<svg class="button__icon">
+						<use xlink:href="#play"></use>
+					</svg>	
+				</a>
+			</div>
+			<div class="provider__inner">
+				<div class="provider__item">
+					<img class="provider__photo "src="img/provider/provider-1.jpg">
+					<h4 class="provider__title">Aerospace Provider</h4>
+					<ul class="provider__points">
+						<li>When an unknown printer took.</li>
+						<li>Make a type specimen book.</li>
+						<li>It has survived.</li>
+						<li>Airlines unknown specimen.</li>
+					</ul>
+				</div>
+				<div class="provider__item">
+					<img class="provider__photo "src="img/provider/provider-2.jpg">
+					<h4 class="provider__title">Poppins Proved</h4>
+					<ul class="provider__points">
+						<li>When an unknown printer took.</li>
+						<li>Make a type specimen book.</li>
+						<li>It has survived.</li>
+						<li>Airlines unknown specimen.</li>
+					</ul>
+				</div>
+				<div class="provider__item">
+					<img class="provider__photo "src="img/provider/provider-3.jpg">
+					<h4 class="provider__title">Airline Specimen</h4>
+					<ul class="provider__points">
+						<li>When an unknown printer took.</li>
+						<li>Make a type specimen book.</li>
+						<li>It has survived.</li>
+						<li>Airlines unknown specimen.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Find -->
+<div class="find">
+	<div class="container">
+		<div class="find__inner">
+			<div class="find__choice">
+				<div class="choice__tab tab--red">
+					Express
+				</div>
+				<div class="choice__tab tab--yellow">
+					Logistics
+				</div>
+				<div class="choice__lists">
+					<select>
+						<option value disabled selected>Track your shipment</option>
+						<option>Вариант 1</option>
+						<option>Вариант 2</option>
+					</select>
+					<select>
+						<option value disabled selected>New login</option>
+						<option>Вариант 1</option>
+						<option>Вариант 2</option>
+					</select>
+					<select>
+						<option value disabled selected>Find Dhl point</option>
+						<option>Вариант 1</option>
+						<option>Вариант 2</option>
+					</select>
+					<select>
+						<option value disabled selected>find a service</option>
+						<option>Вариант 1</option>
+						<option>Вариант 2</option>
+					</select>
+				</div>
+			</div>
+			<img class="find__img" src="img/find/img.jpg">
+		</div>
+	</div>
+</div>
+</body>
+<!-- Footer -->
+<footer>
+	<div class="excellence">
+		<div class="container">
+			<div class="excellence__inner">
+				<div class="excellence__title">Excellence. Simply delivered.</div>
+				<div class="excellence__text">International express deliveries; global freight forwarding by air, sea, road and rail;<br>
+				warehousing solutions from packaging, to repairs, to storage; mail deliveries worldwide;<br>
+				and other customized logistic services – with everything DHL does, we<br>
+				help connect people and improve their lives.</div>
+				<a href="#" class="excellence__button">Learn more</a>
+			</div>
+		</div>
+	</div>
+	<div class="links">
+		<div class="container">
+			<div class="links__inner">
+				<a href="#" class="links__item"><img src="img/links/link-1.png"></a>
+				<a href="#" class="links__item"><img src="img/links/link-2.png"></a>
+				<a href="#" class="links__item"><img src="img/links/link-3.png"></a>
+				<a href="#" class="links__item"><img src="img/links/link-4.png"></a>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer__bg">
+			<img class="footer__img" src="img/footer/img-1.jpg">
+			<div class="container">
+				<div class="footer__inner">
+					<div class="footer__item">
+						<div class="footer__title">Contact center</div>
+						<ul class="footer__text">
+							<li><a href="#">DHL Express</a></li>
+							<li><a href="#">Parcel & Ecommerce</a></li></a>
+							<li><a href="#">DHL Global Forwarding</a></li>
+							<li><a href="#">DHL Freight</a></li>
+							<li><a href="#">DHL Supply Chain</a></li>
+						</ul>
+					</div>
+					<div class="footer__item">
+						<div class="footer__title">About Us</div>
+						<ul class="footer__text">
+							<li><a href="#">Partnerships</a></li>
+							<li><a href="#">Company Portrait</a></li></a>
+							<li><a href="#">DHL Global Forwarding</a></li>
+							<li><a href="#">Green Solutions</a></li>
+							<li><a href="#">Innovation</a></li>
+						</ul>
+					</div>
+					<div class="footer__item">
+						<div class="footer__title">Social media</div>
+						<ul class="footer__text">
+							<li><a class="media" href="#">Facebook</a></li>
+							<li><a class="media" href="#">Dribbble</a></li></a>
+							<li><a class="media" href="#">Behance</a></li>
+							<li><a class="media" href="#">Gmail</a></li>
+							<li><a class="media" href="#">Twitter</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<img class="footer__img" src="img/footer/img-2.jpg">
+		</div>
+	</div>
+</footer>
+</html>
