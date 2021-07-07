@@ -546,3 +546,86 @@ select option{
  	padding-bottom: 5px;
  	background-position: left;
 }
+
+/*Media
+=========================*/
+@media (max-width: 1200px){
+	/*Nav*/
+	.nav{
+		margin: 0 50px;
+	}
+	/*Services*/
+	.services__title {
+		margin: 50px 0;
+		text-align: center;
+	}
+	.services__item{
+		width: 50%;
+		text-align: center;
+	}
+	.services__dhi{
+		width: 25%;
+		margin: 0 auto;
+	}
+	.services__dhi .button__1 {
+	    margin: 70px 0 30px;
+	}
+	.dhi__text {
+    	margin-bottom: 20px;
+	}
+	.dhi__line {
+	    margin: 20px 0;
+	}
+	/*Provider*/
+	.provider{
+		margin-bottom: 350px;
+	}
+	.provider__item {
+	    width: 33.33333%;
+	    max-width: 300px;
+	    margin-left: auto;
+	}
+	.provider__photo{
+		width: 300px;
+	}
+	/*Find*/
+	.find{
+		margin-bottom: 130px;
+	}
+	.find__choice{
+		width: 40%;
+		margin-right: auto;
+	}
+	.find__img{
+		width: 50%;
+	}
+	.choice__lists select{
+		width: 350px;
+	}
+	/*Links*/
+	.links__item{
+		width: 45%;
+		margin-left: auto;
+	}
+	.links__item:nth-child(3){
+		margin-left: 0;
+	}
+	/*Footer*/
+	.footer__img{
+		width: 200px;
+		height: 311px;
+	}
+}
+
+@media (max-width: 1000px){
+	.excellence__text{
+		width: 80%;
+	}
+	.excellence__button{
+		width: 20%;
+	}
+	/*Find*/
+	.find{
+		margin-bottom: 100px;
+	}
+}
